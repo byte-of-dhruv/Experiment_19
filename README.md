@@ -1,28 +1,34 @@
 # Experiment_19
-AIM: Real-World and Interactive Visualizations
+AIM
+
+To study and implement real-world and interactive data visualization techniques in Python using Plotly and Matplotlib for representing hierarchical, relational, and multi-dimensional data.
 
 THEORY
 
-This experiment focuses on Advanced and Interactive Data Visualization, specifically utilizing the Plotly library to create dynamic charts. Unlike static plots, interactive visualizations allow users to hover over data points for more detail, zoom in on specific regions, and toggle data series on or off. This is particularly useful for complex datasets where hierarchical structures (Treemaps), geographical distributions (Choropleth Maps), or multi-dimensional relationships (Radar Charts) need to be explored intuitively.
+Real-world data visualization involves advanced and interactive graphical techniques to represent complex datasets. Libraries such as Plotly and Matplotlib provide powerful tools for creating interactive and specialized visualizations like treemaps, dendrograms, Venn diagrams, Sankey diagrams, 3D scatter plots, and radar charts. These visualizations help in understanding hierarchical structures, clustering relationships, set overlaps, flow of data, and multi-dimensional patterns. Interactive visualizations enhance user experience by allowing dynamic exploration of data, making them highly useful in business analytics, scientific research, and decision-making systems.
 
-import plotly.express as px: Imports the Plotly Express module, a high-level interface for creating complex and interactive figures with simple code.
+ONE-LINE EXPLANATIONS OF FUNCTIONS
 
-pd.DataFrame(): Organizes raw data into a tabular format that is compatible with Plotly’s plotting functions.
+treemap() – Creates a hierarchical tree structure visualization based on values.
 
-px.treemap(): Creates a hierarchical visualization where data is represented as nested rectangles, with sizes proportional to their values.
+linkage() – Performs hierarchical clustering on data.
 
-px.choropleth(): Generates a geographical map where regions are shaded or patterned in proportion to a statistical variable.
+dendrogram() – Displays hierarchical relationships between data points.
 
-px.line_polar(): Creates a radar (or spider) chart used to display multivariate data on a two-dimensional chart of three or more quantitative variables.
+venn2() – Creates a Venn diagram showing overlap between two sets.
 
-line_close=True: A parameter within polar plots that connects the last data point back to the first to create a closed geometric shape.
+Sankey() – Visualizes flow of data between different stages.
 
-fig.update_traces(): Allows for the modification of specific properties of the plot's data traces, such as fill color or marker opacity.
+Figure() – Creates a Plotly figure object for visualization.
 
-fig.update_layout(): Used to adjust the overall appearance of the chart, including margins, fonts, and background colors.
+scatter_3d() – Generates a 3D scatter plot for multi-dimensional data.
 
-fig.show(): Renders the interactive figure directly within the Jupyter notebook or a web browser.
+Scatterpolar() – Creates a radar chart for comparing multiple variables.
+
+add_trace() – Adds a plot layer to a Plotly figure.
+
+show() – Displays the interactive visualization.
 
 CONCLUSION
 
-Through this experiment, it is concluded that Interactive Visualizations significantly enhance data storytelling. By using libraries like Plotly, we can move beyond static images to create tools that allow stakeholders to actively engage with data, making it easier to identify outliers in geographical regions or understand budget allocations through hierarchical structures.
+Thus, we successfully studied real-world and interactive visualization techniques using Plotly and Matplotlib. We learned how to represent hierarchical data, clustering relationships, set overlaps, data flow, and multi-dimensional patterns using advanced charts such as treemaps, dendrograms, Venn diagrams, Sankey diagrams, 3D scatter plots, and radar charts.
