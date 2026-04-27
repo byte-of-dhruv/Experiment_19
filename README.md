@@ -1,5 +1,5 @@
 # Experiment_19
-Aim: Real-World and Interactive Visualizations
+AIM: Real-World and Interactive Visualizations
 
 THEORY
 
